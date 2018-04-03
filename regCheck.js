@@ -1,5 +1,5 @@
 function regCheck (reg, location){
-  var regConfirm = reg.includes(location);
+  var regConfirm = reg.endsWith(location);
   console.log(regConfirm);
   return regConfirm;
 };
