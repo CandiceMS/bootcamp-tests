@@ -1,9 +1,9 @@
 describe('How many years ago', function(){
 
-    it('should return a numerical value after calculating difference between input and current year', function(){
+    it('should return 90 years difference between input year and current year', function(){
         assert.equal(yearsAgo(1928), 90);
     });
-    it('should return a numerical value after calculating difference between input and current year', function(){
+    it('should return 2 years difference between input year and current year', function(){
         assert.equal(yearsAgo(2016), 2);
     });
 });

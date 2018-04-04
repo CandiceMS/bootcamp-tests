@@ -1,9 +1,9 @@
 describe('Total cost', function(){
 
-    it('should return a numerical value of total cost of sms and calls, after identifying each and assignment of a numerical value to each', function(){
+    it('should return "R8.25" as the total cost for  0 sms and 3 calls', function(){
         assert.equal(totalPhoneBill('call, call, call'), 'R8.25');
     });
-    it('should return a numerical value of total cost of sms and calls, after identifying each and assignment of a numerical value to each', function(){
+    it('should return "R4.05" as the total cost for 2 sms and 1 call', function(){
         assert.equal(totalPhoneBill('sms, call, sms'), 'R4.05');
     });
 });

@@ -1,9 +1,9 @@
 describe('Registration count', function(){
 
-    it('should return a numerical value of how many registrations are from Paarl', function(){
+    it('should return the number 2 as the amount of registrations that start with CJ', function(){
         assert.equal(countAllPaarl('CJ123000, CJ6059'), 2);
     });
-    it('should return a numerical value of how many registrations are from Paarl', function(){
+    it('should return the number 1 as the amount of registrations that start with CJ', function(){
         assert.equal(countAllPaarl('BY123000, CJ 453'), 1);
     });
 });

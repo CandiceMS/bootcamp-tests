@@ -1,6 +1,6 @@
 describe('Most Profitable Department', function(){
 
-    it('should return the name of the most profitable department after calculating the total sales for each', function(){
+    it('should return "outdoor" as the most profitable department', function(){
         assert.equal( mostProfitableDepartment([
           {department : 'hardware', sales : 4500, day : 'Monday'},
           {department : 'outdoor', sales : 1500, day : 'Monday'},
@@ -19,7 +19,7 @@ describe('Most Profitable Department', function(){
           {department : 'carpentry', sales : 16109, day : 'Friday'}]),
     'outdoor');
     });
-    it('should return the name of the most profitable department after calculating the total sales for each', function(){
+    it('should return "hardware" as the most profitable department', function(){
         assert.equal( mostProfitableDepartment([
           {department : 'hardware', sales : 4500, day : 'Monday'},
           {department : 'outdoor', sales : 1500, day : 'Monday'},
